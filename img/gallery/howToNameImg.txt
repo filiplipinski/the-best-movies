@@ -1,0 +1,6 @@
+ID_MOVIE=1, NR_IMG=1 --> NAME: 11.jpg
+ID_MOVIE=1, NR_IMG=2 --> NAME: 12.jpg
+
+ID_MOVIE=2, NR_IMG=3 --> NAME: 23.jpg
+
+ID_MOVIE=8, NR_IMG=5 --> NAME: 85.jpg

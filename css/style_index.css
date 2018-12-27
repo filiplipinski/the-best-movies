@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #151515;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+/* style logo: */
+main .logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #e5e5e5;
+  font-family: 'Playball', cursive;
+  letter-spacing: 1px;
+}
+
+main .logo h1 {
+  font-size: 80px;
+}
+
+main .logo a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
+main .logo span {
+  color: #CFB53B;
+  font-size: 100px;
+}
+
+
+/* style nav */
+main nav {
+  position: relative;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+main nav ul {
+  list-style: none;
+}
+
+main nav ul a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+main nav ul li {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #e5e5e5;
+  text-transform: uppercase;
+  line-height: 65px;
+}
+
+
+main nav ul li:hover {
+  transform: scale(1.1);
+  text-shadow: -1px 0 10px #CFB53B, 0 1px 10px #CFB53B, 1px 0 10px #CFB53B, 0 -1px 20px #CFB53B;
+}
